@@ -1,8 +1,8 @@
 module.exports = {
+    base: '/nben-doc/',
     lang: 'zh-CN',
     title: 'nben-cloud',
     description: '使用nben-cloud开发web项目',
-    dest: 'dist',
     themeConfig: {
         navbar: [
             // NavbarItem

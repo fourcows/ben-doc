@@ -1,26 +1,22 @@
 module.exports = {
-    base: '/nben-doc/',
+    base: '/ben-doc/',
     lang: 'zh-CN',
-    title: 'nben-cloud',
-    description: '使用nben-cloud开发web项目',
+    title: 'ben框架',
+    description: '使用ben框架开发web项目',
     themeConfig: {
         navbar: [
             // NavbarItem
             {
-                text: '后端文档',
-                link: '/backend/',
+                text: 'ben-boot',
+                link: 'https://github.com/fourcows/ben-boot',
             },
             {
-                text: '前端文档',
-                link: '/frontend/',
+                text: 'ben-cloud',
+                link: 'https://github.com/fourcows/ben-cloud',
             },
             {
-                text: 'Gitee',
-                link: 'https://gitee.com/fourcows/nben-cloud',
-            },
-            {
-                text: 'GitHub',
-                link: 'https://github.com/fourcows/nben-cloud',
+                text: 'ben-ui',
+                link: 'https://github.com/fourcows/ben-ui',
             },
         ],
     }
